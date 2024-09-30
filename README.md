@@ -83,25 +83,6 @@
    - Lower risk during early adoption phase
    - Simplified receiving process for users
 
-# BMAB Platform Architecture Evolution
-
-## Phase 1: Partially Centralized Solution
-
-1. Tipping Process:
-   - Sender transfers funds to an Escrow smart contract on the respective blockchain
-   - Sender includes receiver's BMAB ID NFT ID (chainID + NFT Contract address + NFT token ID)
-   - Funds are held in the Escrow contract
-
-2. Fund Distribution:
-   - Centralized server manages fund distribution
-   - Receiver requests fund withdrawal through the server
-   - Server initiates the transfer from Escrow to receiver's designated wallet
-
-3. Benefits:
-   - Improved UX with centralized management
-   - Reduced initial development complexity
-   - Lower risk during early adoption phase
-
 ## Phase 2: Transition to Decentralization
 
 1. Implementation of Attestation Technology:
