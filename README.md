@@ -7,6 +7,8 @@ https://claude.site/artifacts/0b4f059d-47e7-4cef-8d1b-d91015609fbf
 Tlink interface for referral and non-referral.
 https://claude.site/artifacts/108f494c-d2d1-45b8-8a96-c0459178e33e
 
+稀缺性
+
 ### to be discussed BMAB ID NFT can be ENS subdomain on base like abc.BMAB.base.eth, and/or supporting xxx.base.eth
 
 
