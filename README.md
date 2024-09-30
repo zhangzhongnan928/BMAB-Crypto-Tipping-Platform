@@ -1,6 +1,8 @@
 Tlink for receiving tips 
 https://claude.site/artifacts/03d671ae-4fb3-4c84-a98e-407d461a24d1
 
+BMAB ID NFT can be ENS subdomain on base like abc.BMAB.base.eth, and/or supporting xxx.base.eth
+
 
 # BMAB Crypto Tipping Platform Features
 
