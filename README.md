@@ -34,8 +34,8 @@
    - Potential for push notifications to remind previous tippers
 
 
-#Here are some thoughts on the strengths and potential challenges:
-##Strengths:
+# Here are some thoughts on the strengths and potential challenges:
+## Strengths:
 
 - Multi-chain support provides flexibility and broad accessibility.
 - Using an NFT as identifier decouples identity from specific wallets, enhancing privacy and ease of use.
@@ -43,14 +43,14 @@
 - The wallet pass for senders encourages repeat tipping and builds a connection with receivers.
 - Focusing on developers, especially crypto developers, is a smart go-to-market strategy given their familiarity with the technology.
 
-##Potential Challenges:
+## Potential Challenges:
 
 - Ensuring seamless cross-chain operations and aggregation might be technically complex.
 - User education may be needed for concepts like NFT-based identity and Tapps.
 - Balancing fees for the one-click claim feature against the benefits of consolidation.
 - Ensuring compliance with varying regulations across different jurisdictions.
 
-##For the go-to-market strategy focusing on crypto developers, consider these additional features:
+## For the go-to-market strategy focusing on crypto developers, consider these additional features:
 
 - Integration with version control platforms (e.g., GitHub, GitLab) to allow tipping directly on commits or pull requests.
 - Support for tipping in relation to specific smart contracts or dApps.
