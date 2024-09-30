@@ -1,3 +1,7 @@
+Tlink for receiving tips 
+https://claude.site/artifacts/03d671ae-4fb3-4c84-a98e-407d461a24d1
+
+
 # BMAB Crypto Tipping Platform Features
 
 1. Multi-chain Support:
