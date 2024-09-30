@@ -55,4 +55,79 @@
 - Integration with version control platforms (e.g., GitHub, GitLab) to allow tipping directly on commits or pull requests.
 - Support for tipping in relation to specific smart contracts or dApps.
 - Analytics tools that help developers understand which projects or contributions are most valued by the community.
+
+# BMAB Platform Architecture Evolution
+
+## Phase 1: Partially Centralized Solution
+
+1. Tipping Process:
+   - Sender transfers funds to an Escrow smart contract on the respective blockchain
+   - Sender includes receiver's BMAB ID NFT ID (chainID + NFT Contract address + NFT token ID)
+   - Funds are held in the Escrow contract
+
+2. Fund Distribution:
+   - Centralized server manages fund distribution
+   - Receiver requests fund withdrawal through the server
+   - Server initiates the transfer from Escrow to the wallet address owning the receiver's BMAB ID NFT on the Base blockchain
+   - All tips are converted to a single ERC20 token or ETH on Base during this process
+
+3. Benefits:
+   - Improved UX with centralized management and consolidated funds
+   - Reduced initial development complexity
+   - Lower risk during early adoption phase
+   - Simplified receiving process for users
+
+# BMAB Platform Architecture Evolution
+
+## Phase 1: Partially Centralized Solution
+
+1. Tipping Process:
+   - Sender transfers funds to an Escrow smart contract on the respective blockchain
+   - Sender includes receiver's BMAB ID NFT ID (chainID + NFT Contract address + NFT token ID)
+   - Funds are held in the Escrow contract
+
+2. Fund Distribution:
+   - Centralized server manages fund distribution
+   - Receiver requests fund withdrawal through the server
+   - Server initiates the transfer from Escrow to receiver's designated wallet
+
+3. Benefits:
+   - Improved UX with centralized management
+   - Reduced initial development complexity
+   - Lower risk during early adoption phase
+
+## Phase 2: Transition to Decentralization
+
+1. Implementation of Attestation Technology:
+   - Develop system for receivers to prove ownership of BMAB ID NFT
+   - Integrate attestation verification into Escrow smart contract
+
+2. Direct Claim Process:
+   - Receiver proves ownership to Escrow contract via attestation
+   - Escrow contract verifies attestation and releases funds directly to receiver
+
+3. Benefits:
+   - Increased decentralization and trustlessness
+   - Reduced reliance on centralized server
+   - Enhanced security and user control
+
+## Considerations for Both Phases
+
+1. Smart Contract Security:
+   - Implement robust access controls
+   - Conduct thorough audits
+
+2. Gas Optimization:
+   - Design efficient contract interactions to minimize transaction costs
+
+3. Cross-Chain Compatibility:
+   - Ensure Escrow contracts are deployable across supported chains
+   - Implement chain-specific adaptations as needed
+
+4. Upgradeability:
+   - Design contracts with upgrade patterns to facilitate transition between phases
+
+5. Token Conversion:
+   - Implement efficient mechanisms for converting various tokens to the chosen Base blockchain token
+   - Consider gas costs and slippage in the conversion process
 - Integration with developer-focused platforms like Stack Overflow or dev.to.
